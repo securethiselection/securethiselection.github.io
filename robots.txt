@@ -1,0 +1,12 @@
+---
+# Remember to set production_url in your _config.yml file!
+---
+User-Agent: *
+Disallow: 
+Disallow: /_includes/
+Disallow: /_drafts/
+Disallow: /_config.yml
+Disallow: /_layouts/
+Disallow: /_plugins/
+
+Sitemap: {{site.production_url}}/sitemap.txt
